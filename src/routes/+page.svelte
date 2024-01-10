@@ -1,5 +1,5 @@
 <script>
-  import Newo from '../lib/components/Newo.svelte';
+  
 </script>
 <style>
   .container {
@@ -11,7 +11,5 @@
 </style>
 
 <div class="container">
-<Newo title="News" slogan="Very interesting news" link="https://google.com">
-    Newnewnewnewnewnewnewnewnewnewnewsss..........
-</Newo>
+
 </div>

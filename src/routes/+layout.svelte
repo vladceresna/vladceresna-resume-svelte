@@ -46,22 +46,21 @@
 </style>
   
   <Navbar dark=true style="width:100%;position: fixed;z-index:1000;background:linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,11,91,1) 23%, rgba(0,212,255,1) 100%);" light expand="md" container="md">
-    <NavbarBrand style="width:7%;word-wrap:normal" href="/"><Image style="width:50px; margin:0 10px; 0 0" alt="logo" src="/favicon.png"/>Sveltestrap template</NavbarBrand>
+    <NavbarBrand style="width:7%;word-wrap:normal" href="/"><Image style="width:50px; margin:0 10px; 0 0" alt="logo" src="/favicon.png"/>Resume of Vlad Ĉereŝna</NavbarBrand>
     <NavbarToggler style="width:10%;" on:click={changeOpened} />
-        <Collapse {isOpen} navbar expand="md" on:update={handleUpdate}>
-          <Nav class="ms-auto" navbar>
-            <NavItem>
-              <NavLink href="/">Main</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="/news/">News</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="/about/">About</NavLink>
-            </NavItem>
-          </Nav>
-        </Collapse>
-  
+    <Collapse {isOpen} navbar expand="md" on:update={handleUpdate}>
+      <Nav class="ms-auto" navbar>
+        <NavItem>
+          <NavLink href="/">About</NavLink>
+        </NavItem>
+        <NavItem>
+          <NavLink href="/projects/">Projects</NavLink>
+        </NavItem>
+        <NavItem>
+          <NavLink href="/contact/">Contact me</NavLink>
+        </NavItem>
+      </Nav>
+    </Collapse>
   </Navbar>
   
 <section style="font-size:xxx-large;padding:100px 10%;justify-content:right;align-items:center;display:flex;color:white;">
@@ -71,7 +70,7 @@
     <slot/>
 </main>
 <footer style="background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,11,91,1) 23%, rgba(0,212,255,1) 100%); color:white">
-    <h2>Zone of Bootstrap and <span style="color:yellowgreen">Svelte</span></h2>
-    <h6><a href="mailto:vladceresna6@gmail.com">vladceresna6@gmail.com</h6>
-    <h6>Copyright © Vlad Ĉereŝna, 2023</h6>
+    <h2>Resume of Vlad Ĉereŝna on <span style="color:yellowgreen">Svelte</span> site</h2>
+    <h6>mailto:<a href="mailto:vladceresna6@gmail.com">vladceresna6@gmail.com</a></h6>
+    <h6>Copyright © Vlad Ĉereŝna, 2023-2024</h6>
 </footer>
