@@ -5,6 +5,7 @@
     import {
     Image,
     Button,
+    Badge,
     Collapse,
     NavbarToggler,
     NavbarBrand,
@@ -24,6 +25,8 @@
     CardText,
     CardTitle
   } from '@sveltestrap/sveltestrap';
+  import LeftBlock from '../lib/components/LeftBlock.svelte'
+  import RightBlock from '../lib/components/RightBlock.svelte'
 
   let isOpen = false;
 
@@ -33,23 +36,60 @@
   function changeOpened(){
     isOpen = !isOpen
   }
+
+  const skills = [
+    '-----strong knowledge of-----',
+    'Java',
+    'Spring',
+    'SpringMVC',
+    'Rest API',
+    'Hibernate',
+    'Postgres',
+    'Redis',
+    'RedisJSON',
+    'Android',
+    'Retrofit',
+    'Firebase',
+    'Maven',
+    'Gradle',
+    'HTML/CSS',
+    'Adaptivity',
+    'Svelte',
+    'ML Neuroph Framework',
+    'Git/GitHub',
+    '-----basics of------',
+    'JS',
+    'TS',
+    'Python',
+  ];
 </script>
 <style>
-    main,footer{
-        padding: 5% 10% ;
-    }
-    section{
-        height: 500px;
-        background: url("https://open.lutsk.ua/wp-content/uploads/2019/10/youth-center-1024x600.jpg");
-        background-size: cover;
-    }
+  .body{
+    padding-top: 76px;
+  }
+  main,footer{
+    padding: 5% 10% ;
+  }
+  main{
+    word-wrap:break-word;
+    color:white;
+    background: linear-gradient(90deg, rgba(29,29,29,1) 0%, rgba(0,65,69,1) 50%, rgba(12,103,0,1) 100%);
+  }
+  footer{
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,110,115,1) 50%, rgba(30,150,0,1) 100%);
+    color:white;
+  }
+  a{
+    color:cyan;
+  }
+    
 </style>
   
-  <Navbar dark=true style="width:100%;position: fixed;z-index:1000;background:linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,11,91,1) 23%, rgba(0,212,255,1) 100%);" light expand="md" container="md">
+  <Navbar dark=true style="width:100%;position: fixed;z-index:1000;background:linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,110,115,1) 50%, rgba(30,150,0,1) 100%);" light expand="md" container="md">
     <NavbarBrand style="width:7%;word-wrap:normal" href="/"><Image style="width:50px; margin:0 10px; 0 0" alt="logo" src="/favicon.png"/>Resume of Vlad Ĉereŝna</NavbarBrand>
     <NavbarToggler style="width:10%;" on:click={changeOpened} />
     <Collapse {isOpen} navbar expand="md" on:update={handleUpdate}>
-      <Nav class="ms-auto" navbar>
+      <Nav class="ms-auto" navbar color=white>
         <NavItem>
           <NavLink href="/">About</NavLink>
         </NavItem>
@@ -63,14 +103,22 @@
     </Collapse>
   </Navbar>
   
-<section style="font-size:xxx-large;padding:100px 10%;justify-content:right;align-items:center;display:flex;color:white;">
-<span style="text-shadow:black 3px -3px 5px">Activize our <br>Svetestrap!</span>
-</section>
-<main style="word-wrap:break-word;color:white;background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(46,63,185,1) 13%, rgba(123,234,255,1) 100%);">
+<div class="body">
+<LeftBlock title="Vlad Ĉereŝna" imagelink="https://www.airhistory.net/photos/0205784.jpg">
+  Junior Java Developer
+  <div >
+    {#each skills as skill}
+      <Badge style="margin:2px" color="primary">{skill}</Badge>
+    {/each}
+  </div>
+
+</LeftBlock>
+<main>
     <slot/>
 </main>
-<footer style="background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,11,91,1) 23%, rgba(0,212,255,1) 100%); color:white">
-    <h2>Resume of Vlad Ĉereŝna on <span style="color:yellowgreen">Svelte</span> site</h2>
-    <h6>mailto:<a href="mailto:vladceresna6@gmail.com">vladceresna6@gmail.com</a></h6>
+<footer>
+    <h2>Resume of <span style="color:limegreen">Vlad Ĉereŝna</span></h2>
+    <h6>e-mail: <a href="mailto:vladceresna6@gmail.com">vladceresna6@gmail.com</a></h6>
     <h6>Copyright © Vlad Ĉereŝna, 2023-2024</h6>
 </footer>
+</div>
