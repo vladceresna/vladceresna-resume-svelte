@@ -8,15 +8,23 @@
 </script>
 <style>
 .container{
-  padding: 30px 5%;
+  padding: 30px 0 30px 5%;
+  vertical-align: middle;
+  height: 100%;
+  justify-content:space-between;
 }
 .left-block{
-  width: 45%;
+  width: 40%;
   display: inline-block;
+  vertical-align: middle;
+  height: 100%;
 }
 .right-block{
-  width: 45%;
+  align-items: end;
+  width: 50%;
   display: inline-flex;
+  vertical-align: middle;
+  height: 100%;
 }
 </style>
 <div class="container">

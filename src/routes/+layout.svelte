@@ -104,7 +104,7 @@
   </Navbar>
   
 <div class="body">
-<LeftBlock title="Vlad Ĉereŝna" imagelink="https://www.airhistory.net/photos/0205784.jpg">
+<LeftBlock title="Vlad Ĉereŝna" imagelink="https://www.iss.nus.edu.sg/images/default-source/default-album/software-dev.jpg?Status=Master&sfvrsn=aa8aa05f_0">
   Junior Java Developer
   <div >
     {#each skills as skill}
