@@ -1,40 +1,50 @@
 <script lang="js">
   import {
     Button,
-    Image
+    Col,
+    Figure,
+    Image,
+    Container,
+    Row
   } from '@sveltestrap/sveltestrap';
   export let title;
+  export let alt;
   export let imagelink;
 </script>
 <style>
-.container{
-  padding: 30px 0 30px 5%;
-  vertical-align: middle;
-  height: 100%;
-  justify-content:space-between;
-}
-.left-block{
-  width: 40%;
-  display: inline-block;
-  vertical-align: middle;
-  height: 100%;
-}
-.right-block{
-  align-items: end;
-  width: 50%;
-  display: inline-flex;
-  vertical-align: middle;
-  height: 100%;
-}
+  .container{
+    padding: 4% 0;
+  }
+  .left-block .right-block{
+    height: 100%;
+    vertical-align: middle;
+  }
 </style>
 <div class="container">
-  <div class="left-block">
-    <h2>{title}</h2>
-    <div>
-      <slot/>
-    </div>
-  </div>
-  <div class="right-block">
-    <Image  alt="image" fluid theme="auto" thumbnail figure={false} src="{imagelink}"/>
-  </div>
+  <Container>
+    <Row style="align-items: center;">
+      <Col xs="6" style="height:100%;">
+        <div class="left-block">
+          <h2>{title}</h2>
+          <div>
+            <slot/>
+          </div>
+        </div>
+      </Col>
+      <Col xs="6">
+        <div class="right-block">
+          <Figure caption="{alt}" 
+          style="word-wrap: break-word;
+          overflow-wrap:break-word;
+          text-wrap:wrap;
+          width:100%;
+          font-size:xx-small;">
+            <Image style="border:solid 5px green;
+            border-radius:20px;
+            " alt="{alt}" fluid theme="auto" figure={true} src="{imagelink}"/>
+          </Figure>
+        </div>
+      </Col>
+    </Row>
+  </Container>
 </div>

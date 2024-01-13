@@ -41,12 +41,15 @@
     '-----strong knowledge of-----',
     'Java',
     'Spring',
+    'Vaadin',
     'SpringMVC',
+    'Thymeleaf',
     'Rest API',
     'Hibernate',
     'Postgres',
     'Redis',
     'RedisJSON',
+    'XML',
     'Android',
     'Retrofit',
     'Firebase',
@@ -61,11 +64,16 @@
     'JS',
     'TS',
     'Python',
+    '-----ui/ux designer-----',
+    'Figma',
+    'Logotypes'
   ];
 </script>
 <style>
-  .body{
-    padding-top: 76px;
+  .bodyc{
+    padding: 76px 0 0 0;
+    margin: auto;
+
   }
   main,footer{
     padding: 5% 10% ;
@@ -82,7 +90,7 @@
   a{
     color:cyan;
   }
-    
+
 </style>
   
   <Navbar dark=true style="width:100%;position: fixed;z-index:1000;background:linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,110,115,1) 50%, rgba(30,150,0,1) 100%);" light expand="md" container="md">
@@ -103,16 +111,20 @@
     </Collapse>
   </Navbar>
   
-<div class="body">
-<LeftBlock title="Vlad Ĉereŝna" imagelink="https://www.iss.nus.edu.sg/images/default-source/default-album/software-dev.jpg?Status=Master&sfvrsn=aa8aa05f_0">
-  Junior Java Developer
-  <div >
-    {#each skills as skill}
-      <Badge style="margin:2px" color="primary">{skill}</Badge>
-    {/each}
+<div class="bodyc">
+  <div style="background:linear-gradient(90deg, rgba(123,247,255,1) 0%, rgba(255,255,255,1) 50%, rgba(141,255,126,1) 100%);">
+    <LeftBlock
+      title="Vlad Ĉereŝna" 
+      alt="Image by Freepik: https://www.freepik.com/free-vector/hand-drawn-web-developers_12063795.htm#page=6&query=developer&position=39&from_view=search&track=sph&uuid=ef4cb35a-12bd-4dc4-91ac-aa54394948aa"
+      imagelink="https://img.freepik.com/free-vector/hand-drawn-web-developers_23-2148819604.jpg?w=740&t=st=1704993922~exp=1704994522~hmac=22f875e97c7cff5b70272cf491e001af55f7df0612b056013bad40dd8487f2bd">
+      Junior <b>Java</b> & <b>Android</b> & <b>Web</b> & <b>ML</b> Developer & <b>UI/UX</b> Designer
+      <div >
+        {#each skills as skill}
+          <Badge style="margin:2px" color="primary">{skill}</Badge>
+        {/each}
+      </div>
+    </LeftBlock>
   </div>
-
-</LeftBlock>
 <main>
     <slot/>
 </main>

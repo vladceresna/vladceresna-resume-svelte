@@ -1,1 +1,1 @@
-hj
+<script></script>
