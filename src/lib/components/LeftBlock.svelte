@@ -12,7 +12,7 @@
   export let imagelink;
 </script>
 <style>
-  .container{
+  .containerr{
     padding: 4% 0;
   }
   .left-block .right-block{
@@ -20,7 +20,7 @@
     vertical-align: middle;
   }
 </style>
-<div class="container">
+<div class="containerr">
   <Container>
     <Row style="align-items: center;">
       <Col xs="6" style="height:100%;">

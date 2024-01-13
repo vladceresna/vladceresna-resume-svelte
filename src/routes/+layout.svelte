@@ -61,6 +61,7 @@
     'ML Neuroph Framework',
     'Git/GitHub',
     '-----basics of------',
+    'libGDX',
     'JS',
     'TS',
     'Python',
@@ -94,7 +95,9 @@
 </style>
   
   <Navbar dark=true style="width:100%;position: fixed;z-index:1000;background:linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,110,115,1) 50%, rgba(30,150,0,1) 100%);" light expand="md" container="md">
-    <NavbarBrand style="width:7%;word-wrap:normal" href="/"><Image style="width:50px; margin:0 10px; 0 0" alt="logo" src="/favicon.png"/>Resume of Vlad Ĉereŝna</NavbarBrand>
+    <NavbarBrand style="width:7%;word-wrap:normal" href="/">
+      <Image style="width:50px; margin:0 10px; 0 0" alt="logo" src="/favicon.png"/>
+      Vlad Ĉereŝna</NavbarBrand>
     <NavbarToggler style="width:10%;" on:click={changeOpened} />
     <Collapse {isOpen} navbar expand="md" on:update={handleUpdate}>
       <Nav class="ms-auto" navbar color=white>
