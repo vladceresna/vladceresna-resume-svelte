@@ -48,6 +48,7 @@
     'Hibernate',
     'Postgres',
     'Redis/RedisJSON',
+    'TeleBots',
     'XML',
     'Android',
     'Material UI',
@@ -65,6 +66,7 @@
     'JS',
     'TS',
     'Python',
+    'Kotlin',
     '-----ui/ux designer-----',
     'Figma',
     'Logotypes'
