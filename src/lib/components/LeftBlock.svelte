@@ -34,7 +34,8 @@
       <Col xs="6">
         <div class="right-block">
           <Figure caption="{alt}" 
-          style="word-wrap: break-word;
+          style="color:burlywood;
+          word-wrap: break-word;
           overflow-wrap:break-word;
           text-wrap:wrap;
           width:100%;

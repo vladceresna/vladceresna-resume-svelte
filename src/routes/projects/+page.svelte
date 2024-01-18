@@ -22,17 +22,17 @@
         <Badge>Gradle</Badge>
         <br><br>
         <p>
-            Сайт html/css, на котором также можно 
-            скачать мобильные приложения
+          An html/css site that also offers 
+          download mobile applications
         </p>
         <p>
-            Это сайт так называемой системы мобильных приложений Rula,
-            которая по сюжету предоставляет пользователям услуги мобильных 
-            приложений-сервисов таких как форум Welta и гибридный почтовый
-            клиент Rosto (на самом деле письма в нём - это сообщения (нет протокола SMTP и подобных)),
-            CloudLib, Rendas (Современный чатинг с делением на каналы).
-            Все приложения скачиваются, запускаются и работают, а также подписаны 
-            ключом безопасности
+          This is the website of the so-called mobile application system Rula,
+          which, according to the story, provides users with mobile 
+          application-services such as the Welta forum and the hybrid email client Rosto
+          Rosto client (actually, letters in it are messages (there is no SMTP protocol and such)),
+          CloudLib, Rendas (modern chatting with division into channels).
+          All apps are downloaded, run and work, and are signed with a 
+          security key
         </p>
         <ul>
             <li><a href="https://rula.vercel.app/">This site on the web</a></li>
@@ -55,7 +55,7 @@
             The site you're seeing now
         </p>
         <p>
-            Сайт на котором показаны мои навыки и проекты отображающие мой опыт.
+          A site that showcases my skills and projects displaying my experience.
         </p>
         <ul>
             <li><a href="https://vladceresna.vercel.app/">This site on the web</a></li>
@@ -70,7 +70,7 @@
         <Badge>Android</Badge>
         <br><br>
         <p>
-            Кроссплатформенная игра на Java LibGDX про управление рыбкой в загрязнённом океане
+          A cross-platform Java LibGDX game about controlling a fish in a polluted ocean
         </p>
         <ul>
             <li><a href="https://github.com/vladceresna/SuperFish">SuperFish on Github</a></li>
@@ -87,8 +87,8 @@
         <Badge>Redis (RedisJSON) (Jedis)</Badge>
         <br><br>
         <p>
-            Сканер интернета и поиск сайтов среди сканированных.
-            Можно сказать, поисковик.
+          Internet scanner and search for sites among the scanned ones.
+          You could say search engine.
         </p>
         <ul>
             <li><a href="https://github.com/vladceresna/NetGet">NetGet on Github</a></li>
@@ -96,14 +96,14 @@
       </LeftBlock></div>
       <div style="" id="svacy"><RightBlock 
         title="Svacy" alt="" 
-        imagelink="">
+        imagelink="imgs/svacy.jpg">
         <Badge>Kotlin</Badge>
         <Badge>Java</Badge>
         <Badge>Android</Badge>
         <Badge>WebView</Badge>
         <br><br>
         <p>
-            Простой браузер для смартфонов Android.
+          The simple browser for Android smartphones.
         </p>
         <ul>
             <li><a href="https://github.com/vladceresna/Svacy">Svacy on Github</a></li>
@@ -116,7 +116,7 @@
         <Badge>Desktop</Badge>
         <br><br>
         <p>
-            Дизайн компьютерной версии ERP сайта
+          Design of the desktop version of the ERP website
         </p>
         <ul>
             <li><a href="https://www.figma.com/file/sxK69I10e0Tnh0DnIKTsXM/Netufos?type=design&node-id=0%3A1&mode=design&t=qRpCAGsj7IKcPYV6-1?">Design on Figma</a></li>
@@ -129,7 +129,7 @@
         <Badge>Logo</Badge>
         <br><br>
         <p>
-            Мой опыт создания современных и красивых логотипов
+          My experience in creating modern and beautiful logos
         </p>
         <ul>
             <li><a href="/uiex/logo (1).jpg">Rula logo</a></li>
