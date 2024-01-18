@@ -12,7 +12,7 @@
 <div class="page-container">
     <div style="" id="rula-retsystem"><RightBlock 
         title="Rula Retsystem" alt="" 
-        imagelink="imgs/welta.jpg">
+        imagelink="imgs/rula-banner1.png">
         <Badge>HTML/CSS</Badge>
         <Badge>Adaptive Web</Badge>
         <Badge>Landing Page</Badge>
