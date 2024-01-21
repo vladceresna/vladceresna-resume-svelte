@@ -38,6 +38,7 @@
       <li><a href="/projects/#svacy">Svacy</a></li>
       <li><a href="/projects/#super-fish">Super Fish</a></li>
     </ul>
+    <h3><a href="https://www.sololearn.com/certificates/CT-KCYVXKCC">Java Developer Certificate</a></h3>
     
   </RightBlock></div>
   <div style=""><LeftBlock 
@@ -86,6 +87,8 @@
       <li><a href="/projects/#netget">NetGet</a></li>
       <li><a href="/projects/#my-resume">This my Resume</a></li>
     </ul>
+    <h3><a href="https://www.sololearn.com/certificates/CT-OSWBHFP0">HTML Developer Certificate</a></h3>
+    <h3><a href="https://www.sololearn.com/certificates/CT-AXQEMHW7">Responsive Web Design Developer Certificate</a></h3>
       
   </RightBlock></div>
   <div style=""><LeftBlock 
