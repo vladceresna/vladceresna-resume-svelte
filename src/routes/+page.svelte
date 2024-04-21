@@ -38,7 +38,10 @@
       <li><a href="/projects/#svacy">Svacy</a></li>
       <li><a href="/projects/#super-fish">Super Fish</a></li>
     </ul>
-    <h3><a href="https://www.sololearn.com/certificates/CT-KCYVXKCC">Java Developer Certificate</a></h3>
+    <h3>Certificates</h3>
+    <ul>
+      <li><a href="https://www.sololearn.com/certificates/CT-KCYVXKCC">Java Developer Certificate</a></li>
+    </ul>
     
   </RightBlock></div>
   <div style=""><LeftBlock 

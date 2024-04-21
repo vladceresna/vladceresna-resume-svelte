@@ -35,7 +35,7 @@
           security key
         </p>
         <ul>
-            <li><a href="https://rula.vercel.app/">This site on the web</a></li>
+            <li><a href="https://retrula.netlify.app/">This site on the web</a></li>
             <li><a href="https://github.com/vladceresna/rula-site">Site on Github</a></li>
             <li><a href="https://github.com/vladceresna/Welta">Welta on Github</a></li>
             <li><a href="https://github.com/vladceresna/Rosto">Rosto on Github</a></li>
@@ -58,7 +58,7 @@
           A site that showcases my skills and projects displaying my experience.
         </p>
         <ul>
-            <li><a href="https://vladceresna.vercel.app/">This site on the web</a></li>
+            <li><a href="https://vladceresna.netlify.app/">This site on the web</a></li>
             <li><a href="https://github.com/vladceresna/vladceresna-resume-svelte">My resume on Github</a></li>
         
         </ul>
