@@ -46,25 +46,33 @@
     'Thymeleaf',
     'Rest API',
     'Hibernate',
-    'Postgres',
+    'SQL',
+    'PostgreSQL',
+    'MySQL',
     'Redis/RedisJSON',
-    'TeleBots',
+    'TelegramBots',
     'XML',
     'Android',
     'Material UI',
     'Retrofit',
     'Firebase',
+    'Supabase',
+    'ImageKit',
+    'ReCAPTCHA',
     'Maven',
     'Gradle',
-    'HTML/CSS',
-    'Adaptivity',
+    'HTML/CSS/SCSS/SASS',
+    'JavaScript',
+    'TypeScript',
+    'Responsive',
     'Svelte',
+    'Angular',
     'ML Neuroph Framework',
-    'Git/GitHub',
+    'Pro in Git/GitHub',
+    'Postman',
+    'Swagger',
     '-----basics of------',
     'libGDX',
-    'JS',
-    'TS',
     'Python',
     'Kotlin',
     '-----ui/ux designer-----',
@@ -122,7 +130,7 @@
       title="Vlad Ĉereŝna" 
       alt="Image by Freepik: https://www.freepik.com/free-vector/hand-drawn-web-developers_12063795.htm#page=6&query=developer&position=39&from_view=search&track=sph&uuid=ef4cb35a-12bd-4dc4-91ac-aa54394948aa"
       imagelink="https://img.freepik.com/free-vector/hand-drawn-web-developers_23-2148819604.jpg?w=740&t=st=1704993922~exp=1704994522~hmac=22f875e97c7cff5b70272cf491e001af55f7df0612b056013bad40dd8487f2bd">
-      Junior <b>Java</b> & <b>Android</b> & <b>Web</b> & <b>ML</b> Developer & <b>UI/UX</b> Designer
+      Junior <b>Java</b> & <b>Android</b> & <b>Web</b> & <b>ML</b> Fullstack Developer & <b>UI/UX</b> Designer
       <div >
         {#each skills as skill}
           <Badge style="margin:2px" color="primary">{skill}</Badge>

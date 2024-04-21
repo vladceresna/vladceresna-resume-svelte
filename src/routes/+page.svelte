@@ -23,7 +23,7 @@
     <Badge>Redis/RedisJSON</Badge>
     <br><br>
     <p>
-      I have 3 years of experience in learning and programming in Java.
+      I have 3.5 years of experience in learning and programming in Java.
        All this time I do it daily for 4 hours a day. This experience gives me
         the opportunity to create optimized and high-quality programs. 
         I have a deep understanding of OOP.
@@ -80,8 +80,8 @@
     <p>
       I have 1.5 years of website development. Since November 2023 
       I have been involved in the development of the Resle team Netufos volunteer project 
-      as a java backend using such technologies as Spring, Hibernate, Postgres, RedisJSON, 
-      ImageKit, and during this time I have managed to improve my skills and softskills 
+      as a Lead Java Backend using such technologies as Spring, Hibernate, Postgres, Redis, 
+      ImageKit, etc., and during this time I have managed to improve my skills and softskills 
       (I am a very fast learner and can master any technology in a couple of weeks).
     </p>
     <h3>Projects</h3>
