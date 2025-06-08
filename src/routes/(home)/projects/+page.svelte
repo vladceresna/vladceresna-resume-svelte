@@ -9,37 +9,37 @@
 	import { Card } from '@/components/ui/card';
 	import CardContent from '@/components/ui/card/card-content.svelte';
 	import { FolderOpen, Github, LockOpen, Radio, Wifi } from 'lucide-svelte';
-	import { GithubLogo } from 'svelte-radix';
+	import { OpenInNewWindow } from 'svelte-radix';
 
 	let projects = [
 		{
 			name: 'Virtel',
-			description: 'Description of Project A',
-			link: 'https://example.com/project-a'
+			description: 'A hybrid operating system/browser with very advanced functionality and its own programming language. The most awarded project',
+			link: 'https://virtel.netlify.app/'
 		},
 		{
 			name: 'Netufos',
-			description: 'Description of Project B',
+			description: 'The school`s newest online platform. Developed for a year in a cross-functional team of 30 people under my supervision. Startup environment',
 			link: 'https://example.com/project-b'
 		},
 		{
 			name: 'Rula',
-			description: 'Description of Project C',
+			description: 'A Google-like services ecosystem that had an email service, a forum and the upcoming introduction of chat rooms and cloud storage',
 			link: 'https://example.com/project-c'
 		},
         {
 			name: 'STUI',
-			description: 'Description of Project C',
+			description: 'The best way to create a shared schedule for your team. Displays the current event, rings a bell when a new event starts',
 			link: 'https://example.com/project-c'
 		},
         {
 			name: 'NetGet',
-			description: 'Internet scanner with search running locally on Spring/Vaadin',
+			description: 'Internet scanner with search running locally on Spring/Vaadin. You could say search engine',
 			link: 'https://example.com/project-c'
 		},
         {
 			name: 'Parkur',
-			description: 'Shared schedule/links between people with Appwrite',
+			description: 'Shared links and events between people displayed by category and time',
 			link: 'https://example.com/project-c'
 		}
 	];
@@ -67,19 +67,22 @@
     <section class="p-6">
         <ul class="flex gap-6 flex-wrap justify-center">
             {#each projects as project}
-                <ClickableCard>
-                    <CardContent>
-                    <h3 class="text-xl font-semibold">{project.name}</h3>
-                    <Op class="max-w-sm">{project.description}</Op>
-                    <div class="flex flex-col md:flex-row gap-4 mt-4">
-                        <Button onclick={() => openProjectLink(project.link)}>
-                            <Radio/> Live
-                        </Button>
-                        <Button onclick={() => openProjectLink(project.link)} variant="outline">
-                            <Github/> Github
-                        </Button>
-                    </div>
-                </CardContent>
+                <ClickableCard onclick={() => openProjectLink(project.link)}>
+                    <CardContent class="flex flex-col h-full">
+                        <h3 class="text-xl font-semibold">{project.name}</h3>    
+                        <Op class="max-w-xs flex-1 mb-0">{project.description}</Op>
+                        <div class="flex flex-col md:flex-row gap-4 mt-4">
+                            <Button onclick={() => openProjectLink(project.link)}>
+                                <Radio/> Live
+                            </Button>
+                            <Button onclick={() => openProjectLink(project.link)} variant="outline">
+                                <Github/> Github
+                            </Button>
+                            <Button variant="ghost" size="icon">
+                                <OpenInNewWindow/>
+                            </Button>
+                        </div>
+                   </CardContent>
                 </ClickableCard>
             {/each}
         </ul>
