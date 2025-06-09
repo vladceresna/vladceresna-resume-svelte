@@ -21,7 +21,7 @@
 		</div>
 		<div class="mt-12 flex flex-col items-center justify-center gap-2 md:flex-row">
 			<Button href="/contacts">Cooperate</Button>
-			<Button variant="outline" href="/projects">See projects</Button>
+			<Button variant="outline" href="/CV_Vlad_Ceresna_Fullstack_Developer.pdf">Download PDF CV</Button>
 		</div>
 	</FirstHeroSection>
     <hr />
