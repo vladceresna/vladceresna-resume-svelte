@@ -7,6 +7,7 @@
 	import { cn } from "$lib/utils";
 	import { scrollY } from "svelte/reactivity/window";
 	import Footer from '@/components/own/footer.svelte';
+	import { Menu, X } from "lucide-svelte";
   
 	let menuItems = [
 		{ name: "Home", href: "/" },
@@ -50,21 +51,22 @@
 			  </a>
   
 			  <button
+			  	class="lg:hidden"
 				onclick={() => (menuState = !menuState)}
 				aria-label={menuState == true ? "Close Menu" : "Open Menu"}
 			  >
-				<!-- <Menu
-				  class={[
+				<Menu
+				  class={cn(
 					"m-auto size-6 duration-200",
-					menuState && "rotate-180 scale-0 opacity-0",
-				  ]}
+					menuState && "rotate-180 opacity-0"
+				  )}
 				/>
 				<X
-				  class={[
-					"absolute inset-0 m-auto size-6 -rotate-180 scale-0 opacity-0 duration-200",
-					menuState && "rotate-0 scale-100 opacity-100",
-				  ]}
-				/> -->
+				  class={cn(
+					"m-auto size-6 -rotate-180 opacity-0 duration-200",
+					menuState && "rotate-0 opacity-100",
+				  )}
+				/>
 			  </button>
 			</div>
   

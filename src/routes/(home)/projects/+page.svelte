@@ -87,7 +87,7 @@
             {#each projects as project}
                 <ClickableCard>
                     <CardContent class="flex flex-col h-full">
-                        <h3 class="text-xl font-semibold">{project.name}</h3>    
+                        <h3 class="text-xl font-semibold">{project.name}</h3>
                         <Op class="max-w-xs flex-1 mb-0">{project.description}</Op>
                         <div class="flex flex-col md:flex-row gap-4 mt-4">
                             {#if project.link}
@@ -107,8 +107,8 @@
                             {#if project.github}
                                 {#if Array.isArray(project.github)}
                                     <Popover.Root>
-                                        <Popover.Trigger>
-                                            <Button variant="outline">
+                                        <Popover.Trigger class="w-full">
+                                            <Button variant="outline" class="w-full">
                                                 <Github/> Github
                                             </Button>
                                         </Popover.Trigger>

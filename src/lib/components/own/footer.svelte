@@ -4,7 +4,7 @@
 </script>
   
   <footer class="py-7 md:py-14">
-    <div class="mx-auto max-w-5xl p-6 border rounded-xl  bg-[url('/footer.png')] bg-cover bg-center">
+    <div class="mx-auto max-w-5xl p-6 border rounded-xl  bg-[url('/hero1.png')] bg-cover bg-center">
       <a href="/" aria-label="go home" class="mx-auto block size-fit">
         <Logo />
       </a>

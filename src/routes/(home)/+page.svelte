@@ -116,7 +116,7 @@
       </section>
 
       <hr>
-      <section class="py-16 md:py-24 bg-[url(/hero2.png)] bg-cover bg-center" id="details">
+      <section class="py-6 md:py-12 " id="details">
         <div class="mx-auto max-w-5xl px-4 md:px-6">
           <div class="mx-auto max-w-xl text-center pb-10">
             <Oh1>About me</Oh1>
@@ -143,20 +143,10 @@
                 <Button href="/projects">Projects</Button>
                 <Button href="/way" variant="secondary">My Way</Button>
               </div>
-              <!-- <Olarge>Frontend Developer</Olarge>
-              <Op>Next.js, React.js, Svelte.js</Op>
-              <Olarge>Backend Developer</Olarge>
-              <Op>Nest.js, Node.js, Spring Boot, Ktor</Op>
-              <Olarge>Mobile Developer</Olarge>
-              <Op>Android SDK, Views, Jetpack Compose</Op>
-              <Olarge>Multiplatform Developer</Olarge>
-              <Op></Op> -->
             </div>
           </div>
         </div>
       </section>
-
-      <hr>
 
 
       <Faq/>

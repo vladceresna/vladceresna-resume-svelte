@@ -230,8 +230,12 @@
                 for ordinary users who do not have terabytes of memory in their devices.
                 <br><br>
                 At the same time, in grades 10 and 11, 
-                I also won the regional programming Olympiad and thus passed the 
-                IT Skills Standard Certification three times.
+                I also won the regional programming Olympiad using Java and Kotlin and thus passed the 
+                IT Skills Standard Certification by Regional IT Claster three times.
+                <br><br>
+                Apart from these competitions, I have also participated in other 
+                international programming competitions such as Reply Code Challenge and 
+                DataArt Proggy-Buggy Contest.
                 <br><br>
                 As a result, I graduated from school with honors.
             </Op>
@@ -243,6 +247,11 @@
         <Card class="max-w-2xl mx-auto">
         <CardContent>
             <Op class="mb-0">
+                At the same time, I was running my YouTube channel dedicated to the international 
+                language Esperanto - Esperanto revenis. 
+                As a result, it gained 700 subscribers and some of its videos gained 
+                40 thousand views, and I, having delved into development, stopped working on it.
+                <br><br>
                 At the same time, I participated in the creation of the Youth Center in my town. 
                 We held various activities for young people and in order for them to come, 
                 it was necessary to create announcements, posts on social networks. 
