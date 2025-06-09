@@ -13,7 +13,7 @@
 	export { className as class };
 </script>
 <Card
-	class={cn("cursor-pointer hover:bg-gray-900 transition", className)}
+	class={cn("cursor-pointer hover:dark:bg-gray-900 hover:bg-gray-100 transition", className)}
 	{...$$restProps}
 >
 	<slot />
