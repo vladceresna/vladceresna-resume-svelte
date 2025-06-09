@@ -51,22 +51,15 @@
 			  </a>
   
 			  <button
-			  	class="lg:hidden"
+			  	class="lg:hidden my-auto"
 				onclick={() => (menuState = !menuState)}
 				aria-label={menuState == true ? "Close Menu" : "Open Menu"}
 			  >
-				<Menu
-				  class={cn(
-					"m-auto size-6 duration-200",
-					menuState && "rotate-180 opacity-0"
-				  )}
-				/>
-				<X
-				  class={cn(
-					"m-auto size-6 -rotate-180 opacity-0 duration-200",
-					menuState && "rotate-0 opacity-100",
-				  )}
-				/>
+			  	{#if !menuState}
+				<Menu class="my-auto size-6"/>
+				{:else}
+				<X class="my-auto size-6"/>
+				{/if}
 			  </button>
 			</div>
   
