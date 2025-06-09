@@ -68,7 +68,7 @@
               </Oh0>
               <div class="w-full align-center justify-center flex">
                 <Olead class="max-w-2xl">
-                  Vlad Ĉereŝna - is an award-winning Fullstack developer with experience in creating web 
+                  Vlad Ĉereŝna - an award-winning Fullstack developer with experience in creating web 
                   and cross-platform mobile applications using modern technologies
                 </Olead>
               </div>
