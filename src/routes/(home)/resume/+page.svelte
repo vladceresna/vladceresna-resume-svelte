@@ -30,7 +30,7 @@
         <Card class="max-w-2xl mx-auto">
           <CardContent>
             <Op class="mb-0">
-              I'm a 17-year-old Fullstack Developer and product builder with deep experience in backend, frontend,
+              I'm a young Fullstack Developer and product builder with deep experience in backend, frontend,
               cross-platform apps, design, and team leadership. I've created award-winning tools, led 30-person tech teams,
               and built platforms from scratch using modern technologies. Looking for opportunities to grow and contribute
               to real-world impact.
@@ -72,7 +72,7 @@
         <Oh1 class="pb-6">Experience & Leadership</Oh1>
         <Card class="max-w-2xl mx-auto">
           <CardContent>
-            <Op class="mb-2">🧑‍💻 Fullstack Developer - 5+ years of hands-on experience (web, mobile, desktop)</Op>
+            <Op class="mb-2">🧑‍💻 Fullstack Developer - 5 years of hands-on experience (web, mobile, desktop)</Op>
             <Op class="mb-2">🧠 Creator of Virtel - operating system & language, awarded nationally</Op>
             <Op class="mb-2">🚀 Founder & Lead of 30-person EdTech startup team (1 year)</Op>
             <Op class="mb-2">🧩 Project manager, recruiter, team trainer, and architect</Op>

@@ -131,7 +131,7 @@
               <div class="flex flex-row gap-6">
                 <Oh3 class="mb-4 flex-1">Vlad Ĉereŝna</Oh3>
                 <Op>
-                  17 y. o.
+                  Young
                 </Op>
               </div>
               <Op>
