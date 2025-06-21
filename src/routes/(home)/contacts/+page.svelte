@@ -44,7 +44,7 @@ import FirstHeroSection from "@/components/own/first-hero-section.svelte";
                     <Button href="https://github.com/vladceresna" variant="link">
                         <Github/> Github
                     </Button>
-                    <Button href="https://www.linkedin.com/in/vlad-%C4%89ere%C5%9Dna-24b259287/" variant="link">
+                    <Button href="https://www.linkedin.com/in/vlad-ceresna-24b259287/" variant="link">
                         <Linkedin/> LinkedIn
                     </Button>
                     <Button href="https://t.me/vladceresna" variant="link">
