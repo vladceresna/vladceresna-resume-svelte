@@ -13,6 +13,7 @@
 		{ name: "Home", href: "/" },
 	  	{ name: "Resume", href: "/resume" },
 		{ name: "Projects", href: "/projects" },
+		{ name: "Designs", href: "/portfolio-design" },
 	  	{ name: "About my WAY", href: "/way" },
 	  	{ name: "Contacts", href: "/contacts" },
 	];

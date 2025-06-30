@@ -68,7 +68,7 @@
 
 <Main>
 	<FirstHeroSection>
-		<Oh0 class="pb-10">Projects</Oh0>
+		<Oh0 class="pb-10">Developer Projects</Oh0>
 		<div class="align-center flex w-full justify-center">
 			<Olead class="max-w-2xl">
 				Here, you can explore the various projects I have worked on.
