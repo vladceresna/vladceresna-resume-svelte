@@ -551,7 +551,12 @@
                         </CardHeader>
                         {#if design.imglink}
                             <CardContent class="flex flex-col items-center">
-                                <img src={design.imglink || '/designs/default.png'} alt={design.name} class="w-full object-cover border rounded-xl" />
+                                <img
+                                    src={design.imglink || '/designs/default.png'}
+                                    alt={design.name}
+                                    class="w-full object-cover border rounded-xl"
+                                    loading="lazy"
+                                />
                             </CardContent>
                         {/if}
                         
