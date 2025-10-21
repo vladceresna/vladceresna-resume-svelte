@@ -67,7 +67,7 @@
 		},
         {
 			name: 'Wonrity Certification',
-			description: 'Certification that is as trusted by employers as a university degree, but free of charge and without the need to wait for years. Ideal for self-taught individuals.,
+			description: 'Certification that is as trusted by employers as a university degree, but free of charge and without the need to wait for years. Ideal for self-taught individuals.',
 			link: 'https://wonrity.netlify.app/certification'
 		},
         {
