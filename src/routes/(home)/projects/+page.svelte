@@ -59,6 +59,21 @@
 			name: 'Parkur',
 			description: 'Shared links and events between people displayed by category and time',
 			link: 'https://parkur.vercel.app/'
+		},
+        {
+			name: 'Wonrity',
+			description: 'A service that helps you find things to do and, through that, meet new interesting people and do things together.',
+			link: 'https://wonrity.netlify.app/'
+		},
+        {
+			name: 'Wonrity Certification',
+			description: 'Certification that is as trusted by employers as a university degree, but free of charge and without the need to wait for years. Ideal for self-taught individuals.',
+			link: 'https://wonrity.netlify.app/certification'
+		},
+        {
+			name: 'Neulity',
+			description: 'Personalized news based on your interests. You can read only news you want to see. With topics excluding and timefilters',
+			link: 'https://neulity.vercel.app/'
 		}
 	];
 	function openProjectLink(link: string) {
